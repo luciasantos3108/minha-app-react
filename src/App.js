@@ -1,21 +1,18 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
+        <h1>🚀 Minha App React está Online!</h1>
+        <p>Consegui fazer o deploy no Railway com sucesso.</p>
+        <a 
+          className="App-link" 
+          href="https://github.com/luciasantos3108" 
+          target="_blank" 
           rel="noopener noreferrer"
         >
-          Learn React
+          Meu GitHub
         </a>
       </header>
     </div>
