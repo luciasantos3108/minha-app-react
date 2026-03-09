@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>🚀 Minha App React está Online!</h1>
+        <h1>🚀 Minha App React está Online! (Editado)</h1>
         <p>Este projeto foi enviado do meu PC para o Railway via GitHub.</p>
         
         <div style={{ margin: '20px', padding: '20px', border: '1px solid white', borderRadius: '10px' }}>
@@ -16,7 +16,7 @@ function App() {
             onClick={() => setCliques(cliques + 1)}
             style={{ padding: '10px 20px', fontSize: '18px', cursor: 'pointer' }}
           >
-            Clicaste {cliques} vezes
+            Clicaste {cliques} vezes 
           </button>
         </div>
 
